@@ -4,7 +4,8 @@ import { useFormik } from "formik";
 const Form = () => {
   const formik = useFormik({
     initialValues: {
-      // Specify initial values for form fields
+      username: "",
+      occupation: "",
     },
     onSubmit: (values) => {
       // Handle form submission
